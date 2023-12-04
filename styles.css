@@ -1,0 +1,413 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    transition: 0.3s;
+    text-rendering: optimizeSpeed;
+    scroll-behavior: smooth;
+  }
+  
+  html, body {
+    height: 100%;
+    scroll-snap-type: y mandatory;
+    /* overflow-y: scroll; */
+  }
+  
+  header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('00-parkers-best-new-cars-coming-2023-2024-polestar-4-lead-alt.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    scroll-snap-align: start;
+  }
+  
+  section {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+  }
+  
+  .part1 {
+    background-image: url('24_FRD_MST_60980.tif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .part2 {
+    background-image: url('9.\ DeLorean-Alpha-5\ [DeLorean].jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .part3 {
+    background-image: url('BYD-Seal-China-January-2023.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .part4 {
+    background-image: url('Ford-Mustang-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .part5 {
+    background-image: url('Rolls-Royce-Spectre-1200x689.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .part6 {
+    background-image: url('01-best-luxury-evs-bmw-ix.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .part7 {
+    background-image: url('2021-best-cars-ford-mustang-hero-mobile.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .part8 {
+    background-image: url('bmw-emobility-electric-vehicle-sp-desktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .part9 {
+    background-image: url('107295504-1693836347646-Mercedes_CLA_COncept_whole_car.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  footer {
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 19px;
+    gap: 10px;
+    background-color: black;
+  }
+  
+  nav{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .tesla{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .menuu{
+    display: none;
+    visibility: hidden;
+  }
+
+  .cha{
+    display: flex;
+    gap: 50px;
+  }
+
+  .navlinks{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+  }
+
+  .icon{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    gap: 10px;
+  }
+
+  .holder{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  .model{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+  }
+
+  .lease{
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .sep{
+    display: flex;
+    gap: 20px;
+    padding-left: 45px;
+  }
+
+  .demoo{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .excludes{
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+  }
+
+  @media screen and (max-width: 500px){
+    html, body {
+        height: 100%;
+        scroll-snap-type: y mandatory;
+        /* overflow-y: scroll; */
+      }
+      
+      header {
+        width: 100%;
+        height: 100vh;
+        background-image: url('00-parkers-best-new-cars-coming-2023-2024-polestar-4-lead-alt.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+        background-color: black;
+        scroll-snap-align: start;
+      }
+      
+      section {
+        width: 100%;
+        height: 100vh;
+        scroll-snap-align: start;
+      }
+      
+      .part1 {
+        background-image: url('24_FRD_MST_60980.tif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+      }
+      
+      .part2 {
+        background-image: url('9.\ DeLorean-Alpha-5\ [DeLorean].jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+      }
+      
+      .part3 {
+        background-image: url('BYD-Seal-China-January-2023.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+      }
+      
+      .part4 {
+        background-image: url('Ford-Mustang-1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+      }
+      
+      .part5 {
+        background-image: url('Rolls-Royce-Spectre-1200x689.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+      }
+      
+      .part6 {
+        background-image: url('01-best-luxury-evs-bmw-ix.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+      }
+      
+      .part7 {
+        background-image: url('2021-best-cars-ford-mustang-hero-mobile.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+      }
+      
+      .part8 {
+        background-image: url('bmw-emobility-electric-vehicle-sp-desktop.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+      }
+      
+      .part9 {
+        background-image: url('107295504-1693836347646-Mercedes_CLA_COncept_whole_car.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+      }
+      
+      footer {
+        scroll-snap-align: start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        font-size: 19px;
+        gap: 10px;
+        background-color: black;
+      }
+      
+      nav{
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+    
+      .tesla{
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+      }
+
+      .menuu{
+        display: block;
+        visibility: visible;
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.671);
+        font-size: 18px;
+      }
+    
+      .menu{
+        display: block;
+        visibility: visible;
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.733);
+        font-size: 18px;
+      }
+    
+      .cha{
+        display: none;
+      }
+    
+      .navlinks{
+        display: none;
+      }
+    
+      .icon{
+        display: none;
+      }
+    
+      .holder{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 100px;
+      }
+    
+      .model{
+        font-size: 40px;
+        font-weight: bolder;
+        color: white;
+      }
+    
+      .lease{
+        font-size: 19px;
+        font-weight: 600;
+        color: white;
+      }
+    
+      .sep{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 45px;
+        width: 99%;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .demoo{
+        width: 250px;
+        height: 40px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+      }
+    
+      .excludes{
+        margin-top: 20px;
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
+        width: 99%;
+      }
+  }
